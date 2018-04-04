@@ -1,0 +1,22 @@
+
+Player moves sendo chamado dentro dos PlayerState
+
+Argumentos:
+
++ Mover para a esquerda dentro do State Pular pode ser diferente de mover para esquerda dentro de Andando
+
+
+
+Motivos para fazer com que player seja um objeto ao invés de ser um rectangle
+
+Argumentos:
+
++
+
+Pensar Melhor
+
+Talvez colocar o process event dentro do player mesmo, e deixar outros processamentos de evento para cada estado
+
+
+Classe Collision Handler
+Identifica os tipos de objetos que colidiram e cria uma reposta baseado e casa tipo de objeto
